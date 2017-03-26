@@ -1,0 +1,103 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Oxygen', sans-serif;
+	height:;
+}
+
+* {box-sizing: border-box;}
+
+/*header*/
+#header-nav{
+	background-color: #00897b;
+	border-radius:0;
+	color: white;
+	border: 0;
+}
+
+.navbar-brand{
+	margin-bottom:15px;
+}
+
+.navbar-header button {
+	margin-top: 15px;
+}
+
+/*#collapsable-nav{
+	background-color: white;
+}
+*/
+.navbar-brand h1{
+	color: #fff;
+	margin-top: auto;
+	margin-bottom:auto;
+}
+
+#nav-list {
+	/*background-color: white;*/
+	text-align:center;
+	border:1px solid #00897b;
+	margin-bottom:1px;
+	margin-top:0px;
+}
+
+#nav-list li{
+	background:white;
+    border:1px solid #00897b;
+}
+
+#nav-list span{
+	color: #000;
+	font-weight:bold;
+}
+/*end of header*/
+
+/*start of main-content*/
+#section-content {
+	background-color:silver;
+	margin:15px 15px;
+	padding:10px 25px;
+	text-align: justify;
+}
+.container h2{
+	font:4rem bold;
+	margin:0px auto;
+}
+
+#section-content h3{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font:3rem bold;
+}
+/*end of index.html*/
+
+.container>h2{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+
+.menu-content{
+	background-color:silver;
+	padding: 1px 10px 10px 10px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.menu-content h3{
+	/*text-align: center;*/
+	font-weight: bold;
+	margin-top:15px;
+}
+
+/*.menu-content p span a:hover, .menu-content p span a:hover{text-decoration: underline;}*/
+
+.menu-content p span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+
